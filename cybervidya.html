@@ -1,0 +1,78 @@
+<head>
+    <title>Login Page!</title>
+
+    <style>
+        body {
+            background-image: url(WhatsApp\ Image\ 2024-07-30\ at\ 9.35.33\ PM\ \(2\).jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Lucida Sans';
+            display: flex;
+        }
+        .form {
+            background-color: white;
+            padding: 25px;
+            margin: auto;
+            border-radius: 4px;
+        }
+        .form>div {
+            margin-bottom: 20px;
+        }
+        img {
+            height: 50px;
+        }
+        form label,input {
+            margin: 5px;
+        }
+        form input {
+            padding: 5px;
+        }
+        .pswd {
+            position: relative;
+            left: 146px;
+            margin: 15px 0px;
+        }
+        .robo {
+            display: flex;
+            align-items: center;
+            padding: 14px;
+            border-radius: 3px;
+            border: 1px solid rgb(163, 158, 158);
+            background-color: rgb(240, 240, 240);
+        }
+        button {
+            color: white;
+            border: none;
+            margin-top: 17px;
+            border-radius: 4px;
+            padding: 4px 15px;
+            background-color: rgb(22, 227, 22);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form">
+        <div>
+            <img src="WhatsApp Image 2024-07-30 at 9.35.33 PM.jpeg" alt="">
+            <img src="WhatsApp Image 2024-07-30 at 9.35.34 PM.jpeg" alt="">
+        </div>
+        <form action="post">
+            <h3>Sign In</h3>
+            <div>
+                <label for="username">User Name</label>
+                <input type="text" id="username">
+            </div>
+            <div>
+                <label for="pswd" style="margin-right: 16px;">Password</label>
+                <input type="text" id="pswd">
+            </div>
+            <div class="pswd">Forgot Password?</div>
+            <div class="robo">
+                <input type="checkbox" id="robot" style="width: 20px; height: 20px;">
+                <label for="robot">I'm not a robot</label>
+            </div>
+            <center><button>Login</button></center>
+        </form>
+    </div>
+</body
